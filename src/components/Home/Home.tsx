@@ -1,5 +1,11 @@
+import * as Styled from "./Home.style";
+
 const Home = () => {
-  return <h1>Home Page</h1>;
+  return (
+    <Styled.DivContainer>
+      <h1>Lorem Ipsum</h1>
+    </Styled.DivContainer>
+  );
 };
 
 export default Home;

@@ -1,33 +1,34 @@
-import { Header, Nav, NavList, StyledNavLink } from "./Navigation.styled";
+//import { Header, Nav, NavList, StyledNavLink } from "./Navigation.style";
+import * as Styled from "./Navigation.style";
 
 const NavigationHeader = () => {
   return (
-    <Header>
-      <Nav>
-        <NavList>
+    <Styled.Header>
+      <Styled.Nav>
+        <Styled.NavList>
           <li>
-            <StyledNavLink to="/" end>
+            <Styled.StyledNavLink to="/" end>
               Home
-            </StyledNavLink>
+            </Styled.StyledNavLink>
           </li>
           <li>
-            <StyledNavLink to="/project" end>
+            <Styled.StyledNavLink to="/project" end>
               Project
-            </StyledNavLink>
+            </Styled.StyledNavLink>
           </li>
           <li>
-            <StyledNavLink to="/about" end>
+            <Styled.StyledNavLink to="/about" end>
               About
-            </StyledNavLink>
+            </Styled.StyledNavLink>
           </li>
           <li>
-            <StyledNavLink to="/contact" end>
+            <Styled.StyledNavLink to="/contact" end>
               Contact
-            </StyledNavLink>
+            </Styled.StyledNavLink>
           </li>
-        </NavList>
-      </Nav>
-    </Header>
+        </Styled.NavList>
+      </Styled.Nav>
+    </Styled.Header>
   );
 };
 

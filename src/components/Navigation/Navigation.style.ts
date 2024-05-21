@@ -23,20 +23,20 @@ export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
-  padding: 0.5rem 1rem; /* Even padding on all sides */
+  padding: 0.5rem 1rem;
   border: 1px solid transparent;
   box-sizing: border-box;
-  display: inline-block; /* Ensures padding is respected without extra space */
-  line-height: 1; /* Removes any additional height from line-height */
+  display: inline-block;
+  line-height: 1;
   transition: color 0.3s, border-color 0.3s;
 
   &.active {
-    color: #a6d1e6;
-    border-color: #a6d1e6;
+    color: var(--color-blue);
+    border-color: var(--color-blue);
   }
 
   &:hover {
-    color: #a6d1e6;
-    border-color: #a6d1e6;
+    color: var(--color-blue);
+    border-color: var(--color-blue);
   }
 `;
