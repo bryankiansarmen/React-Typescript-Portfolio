@@ -1,4 +1,3 @@
-//import { Header, Nav, NavList, StyledNavLink } from "./Navigation.style";
 import * as Styled from "./Navigation.style";
 
 const NavigationHeader = () => {
