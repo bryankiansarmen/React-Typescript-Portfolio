@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   padding: 1rem;
-  margin-top: 20px;
 `;
 
 export const Nav = styled.nav`

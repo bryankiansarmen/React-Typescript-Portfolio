@@ -16,3 +16,9 @@
   --color-white: #ffffffde;
   --color-blue: #4f98ca;
 }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
