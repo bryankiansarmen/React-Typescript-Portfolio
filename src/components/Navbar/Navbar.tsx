@@ -1,7 +1,7 @@
 import * as Styled from "./Navbar.style";
+import { Button } from "../../global.style";
 
 const Navbar = () => {
-  console.log("Navbar");
   return (
     <Styled.NavContainer>
       <Styled.NavBrand>
@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href="#">About</a>
         </Styled.Links>
       </Styled.NavLinks>
-      <Styled.NavButton>Contact</Styled.NavButton>
+      <Button>Contact</Button>
     </Styled.NavContainer>
   );
 };

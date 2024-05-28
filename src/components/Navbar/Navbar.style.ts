@@ -51,17 +51,3 @@ export const Links = styled.li`
     width: 80%;
   }
 `;
-
-export const NavButton = styled.button`
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  color: #ffffff;
-  background-color: #1d4ed8;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-
-  &:hover {
-    background-color: #1e40af;
-  }
-`;

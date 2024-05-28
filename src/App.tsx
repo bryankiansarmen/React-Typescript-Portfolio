@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
 
 // const router = createBrowserRouter([
 //   {
@@ -27,7 +28,12 @@ import Navbar from "./components/Navbar/Navbar";
 // ]);
 
 const App = () => {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Home />
+    </>
+  );
 };
 
 export default App;

@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import NavigationHeader from "../components/Navigation/Navigation";
+import NavigationHeader from "../components/old/Navigation/Navigation";
 import styled from "styled-components";
 
 const DivContainer = styled.div`
