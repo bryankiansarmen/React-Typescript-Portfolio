@@ -25,3 +25,18 @@ export const Button = styled.button`
     background-color: #1e40af;
   }
 `;
+
+export const SectionHeader = styled.h1`
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 600;
+`;
+
+export const SectionContent = styled.div`
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+`;
