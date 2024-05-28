@@ -1,8 +1,9 @@
+import ContentContainer from "../ContentContainer/ContentContainer";
 import * as Styled from "./Home.style";
 
 const Home = () => {
   return (
-    <Styled.DivContainer>
+    <ContentContainer>
       <Styled.ContentContainer>
         <Styled.ImageDivContainer>
           <img
@@ -12,9 +13,9 @@ const Home = () => {
             height={500}
           />
         </Styled.ImageDivContainer>
-        <Styled.SpanTextContainer>
+        <Styled.ContentTextContainer>
           <h1>Home Page</h1>
-          <p>
+          <p style={{ textIndent: "50px" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
             leo ut ante gravida eleifend. Suspendisse potenti. Nam dapibus
             tellus et dolor egestas, eu euismod nunc sollicitudin. Mauris eget
@@ -26,10 +27,9 @@ const Home = () => {
             lorem arcu at orci. Pellentesque habitant morbi tristique senectus
             et netus et malesuada fames ac turpis egestas.
           </p>
-        </Styled.SpanTextContainer>
+        </Styled.ContentTextContainer>
       </Styled.ContentContainer>
-      <Styled.SAmplediv>sasasa</Styled.SAmplediv>
-    </Styled.DivContainer>
+    </ContentContainer>
   );
 };
 
