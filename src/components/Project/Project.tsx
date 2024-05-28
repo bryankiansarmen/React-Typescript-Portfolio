@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 const Project = () => {
   return (
     <GlobalStyled.Container>
+      <section id="project">
       <GlobalStyled.SectionHeader>Project Section</GlobalStyled.SectionHeader>
       <GlobalStyled.SectionContent>
         <Card
@@ -23,6 +24,7 @@ const Project = () => {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non lorem commodo, lobortis risus volutpat, egestas ligula."
         />
       </GlobalStyled.SectionContent>
+      </section>
     </GlobalStyled.Container>
   );
 };

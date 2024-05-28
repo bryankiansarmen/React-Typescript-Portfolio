@@ -5,14 +5,14 @@ const Navbar = () => {
   return (
     <Styled.NavContainer>
       <Styled.NavBrand>
-        <a href="#">Lorem Ipsum</a>
+        <a href="#home">Lorem Ipsum</a>
       </Styled.NavBrand>
       <Styled.NavLinks>
         <Styled.Links>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </Styled.Links>
         <Styled.Links>
-          <a href="#">Project</a>
+          <a href="#project">Project</a>
         </Styled.Links>
         <Styled.Links>
           <a href="#">Experience</a>

@@ -1,10 +1,11 @@
 import * as Styled from "./Home.style";
 import * as GlobalStyled from "../../global.style";
-import headerImage from "../../assets/header.png";
+import headerImage from "../../assets/api.png";
 
 const Home = () => {
   return (
     <GlobalStyled.Container>
+      <section id="home">
       <Styled.Header>
         <div>
           <Styled.HeaderTitle>
@@ -22,6 +23,7 @@ const Home = () => {
           <img src={headerImage} />
         </Styled.ImageContainer>
       </Styled.Header>
+      </section>
     </GlobalStyled.Container>
   );
 };
