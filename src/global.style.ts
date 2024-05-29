@@ -4,6 +4,7 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: auto;
   padding: 5rem 2rem;
+  margin-top: 7rem;
 `;
 
 export const Blur = styled.span`

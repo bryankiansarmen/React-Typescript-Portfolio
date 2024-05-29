@@ -5,7 +5,6 @@ import headerImage from "../../assets/api.png";
 const Home = () => {
   return (
     <GlobalStyled.Container>
-      <section id="home">
       <Styled.Header>
         <div>
           <Styled.HeaderTitle>
@@ -23,7 +22,6 @@ const Home = () => {
           <img src={headerImage} />
         </Styled.ImageContainer>
       </Styled.Header>
-      </section>
     </GlobalStyled.Container>
   );
 };

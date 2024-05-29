@@ -1,9 +1,17 @@
 import styled from "styled-components";
 
-export const NavContainer = styled.nav`
+export const FixedNav = styled.div`
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #18181b;
+  z-index: 1000;
+`;
+
+export const Nav = styled.nav`
   max-width: 1200px;
   margin: auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,14 +26,14 @@ export const NavBrand = styled.div`
   }
 `;
 
-export const NavLinks = styled.ul`
+export const NavList = styled.ul`
   list-style: none;
   display: flex;
   align-items: center;
   gap: 3rem;
 `;
 
-export const Links = styled.li`
+export const NavItem = styled.li`
   position: relative;
   padding-bottom: 0.75rem;
   color: #ffffff;
