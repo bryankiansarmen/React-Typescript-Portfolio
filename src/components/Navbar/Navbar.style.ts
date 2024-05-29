@@ -21,7 +21,6 @@ export const Nav = styled.nav`
 export const NavBrand = styled.div`
   max-width: 500px;
   padding: 2px;
-  box-sizing: border-box;
   background-color: #ffffff;
   border-radius: 5px;
 
