@@ -20,10 +20,38 @@ export const Nav = styled.nav`
 
 export const NavBrand = styled.div`
   max-width: 500px;
+  padding: 2px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 5px;
 
   & a {
     color: #ffffff;
   }
+`;
+
+export const BrandWrapper = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const IconWrapper = styled.div`
+  background-color: #ffffff;
+  color: #18181b;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+`;
+
+export const NameWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+  background-color: #18181b;
+  color: #ffffff;
+  padding: 5px;
 `;
 
 export const NavList = styled.ul`

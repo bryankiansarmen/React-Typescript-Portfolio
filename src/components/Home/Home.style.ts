@@ -34,25 +34,24 @@ export const HeaderDescription = styled.p`
   color: #ccc;
 `;
 
-export const ImageContainer = styled.div`
+export const ImageWrapper = styled.div`
   position: relative;
-
-  & ::before {
-    content: "o";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 38rem;
-    font-weight: 400;
-    line-height: 20rem;
-    color: #1d4ed8;
-    opacity: 0.2;
-    z-index: -100;
-  }
 
   & img {
     max-width: 600px;
     margin: auto;
+  }
+`;
+
+export const SummaryWrapper = styled.div`
+  & Button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+  }
+
+  & Button:hover {
+    background-color: #1e40af;
+    border-color: #1e40af;
   }
 `;

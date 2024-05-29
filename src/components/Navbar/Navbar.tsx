@@ -1,28 +1,31 @@
 import * as Styled from "./Navbar.style";
-import { Button } from "../../global.style";
 
 const Navbar = () => {
   return (
     <Styled.FixedNav>
       <Styled.Nav>
         <Styled.NavBrand>
-          <a href="#">Lorem Ipsum</a>
+          <a href="#">
+            <Styled.BrandWrapper>
+              <Styled.IconWrapper>DEV</Styled.IconWrapper>
+              <Styled.NameWrapper>KIAN</Styled.NameWrapper>
+            </Styled.BrandWrapper>
+          </a>
         </Styled.NavBrand>
         <Styled.NavList>
           <Styled.NavItem>
             <a href="#">Home</a>
           </Styled.NavItem>
           <Styled.NavItem>
+            <a href="#about">About</a>
+          </Styled.NavItem>
+          <Styled.NavItem>
             <a href="#project">Project</a>
           </Styled.NavItem>
           <Styled.NavItem>
-            <a href="#">Experience</a>
-          </Styled.NavItem>
-          <Styled.NavItem>
-            <a href="#">About</a>
+            <a href="#contact">Contact</a>
           </Styled.NavItem>
         </Styled.NavList>
-        <Button>Contact</Button>
       </Styled.Nav>
     </Styled.FixedNav>
   );

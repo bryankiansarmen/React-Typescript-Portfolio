@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <GlobalStyled.Container>
       <Styled.Header>
-        <div>
+        <Styled.SummaryWrapper>
           <Styled.HeaderTitle>
             Hi, I'm <span>Kian</span>, Software Engineer
           </Styled.HeaderTitle>
@@ -17,10 +17,10 @@ const Home = () => {
             Rerum, esse dolorem.
           </Styled.HeaderDescription>
           <GlobalStyled.Button>Get Started</GlobalStyled.Button>
-        </div>
-        <Styled.ImageContainer>
+        </Styled.SummaryWrapper>
+        <Styled.ImageWrapper>
           <img src={headerImage} />
-        </Styled.ImageContainer>
+        </Styled.ImageWrapper>
       </Styled.Header>
     </GlobalStyled.Container>
   );
