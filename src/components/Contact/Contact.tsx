@@ -1,5 +1,5 @@
 import * as GlobalStyled from "../../global.style";
-import * as Styled from "./Contact";
+import * as Styled from "./Contact.style";
 
 const Contact = () => {
   return (
