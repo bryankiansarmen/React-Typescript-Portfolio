@@ -3,8 +3,8 @@ import * as Styled from "./About.style";
 
 const About = () => {
   return (
-    <GlobalStyled.Container>
-      <section id="about">
+    <section id="about">
+      <GlobalStyled.Container>
         <GlobalStyled.SectionHeader>About Section</GlobalStyled.SectionHeader>
         <Styled.ContentWrapper>
           <Styled.ItemWrapper>
@@ -20,8 +20,8 @@ const About = () => {
             Rerum, esse dolorem.
           </Styled.ItemWrapper>
         </Styled.ContentWrapper>
-      </section>
-    </GlobalStyled.Container>
+      </GlobalStyled.Container>
+    </section>
   );
 };
 

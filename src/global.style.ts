@@ -5,6 +5,7 @@ export const Container = styled.div`
   margin: auto;
   padding: 5rem 2rem;
   margin-top: 7rem;
+  border: 1px solid red;
 `;
 
 export const Blur = styled.span`

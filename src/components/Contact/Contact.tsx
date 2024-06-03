@@ -3,8 +3,8 @@ import * as Styled from "./Contact.style";
 
 const Contact = () => {
   return (
-    <GlobalStyled.Container>
-      <section id="contact">
+    <section id="contact">
+      <GlobalStyled.Container>
         <GlobalStyled.SectionHeader>Contact Section</GlobalStyled.SectionHeader>
         <Styled.ContentWrapper>
           <Styled.FormWrapper>
@@ -27,8 +27,8 @@ const Contact = () => {
             <GlobalStyled.Button>Submit</GlobalStyled.Button>
           </Styled.FormWrapper>
         </Styled.ContentWrapper>
-      </section>
-    </GlobalStyled.Container>
+      </GlobalStyled.Container>
+    </section>
   );
 };
 
