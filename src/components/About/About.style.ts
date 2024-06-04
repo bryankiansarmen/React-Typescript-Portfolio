@@ -1,21 +1,28 @@
 import styled from "styled-components";
 
+type ItemWrapperProps = {
+  flex: string;
+};
+
 export const ContentWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  height: 500px;
-  border: 1px solid red;
+  color: #ffffff;
 `;
 
-export const ItemWrapper = styled.div`
+export const ItemWrapper = styled.div<ItemWrapperProps>`
+  flex: ${(props) => props.flex};
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
-  border: 1px solid red;
+  width: 500px;
+  text-indent: 20px;
+  text-align: justify;
+  line-height: 25px;
 `;
 
 export const Item = styled.div`
@@ -26,6 +33,5 @@ export const Item = styled.div`
   width: 100px;
   height: 100px;
   border-radius: 10px;
-  color: #ffffff;
   font-size: 50px;
 `;
