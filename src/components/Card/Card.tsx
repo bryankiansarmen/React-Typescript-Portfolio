@@ -1,17 +1,18 @@
 import React from "react";
+import * as GlobalStyled from "../../global.style";
 import * as Styled from "./Card.style";
 
-type Card = {
-  title: string;
-  description: string;
-};
-
-const Card: React.FC<Card> = ({ title, description }) => {
+const Card: React.FC<{ title: string; description: string }> = ({
+  title,
+  description,
+}) => {
   return (
     <Styled.CardConatiner>
-      <Styled.CardTitle>{title}</Styled.CardTitle>
-      <Styled.CardDescription>{description}</Styled.CardDescription>
-      <Styled.Link>Demo</Styled.Link>
+      <Styled.CardContent>
+        <Styled.CardTitle>{title}</Styled.CardTitle>
+        <Styled.CardDescription>{description}</Styled.CardDescription>
+      </Styled.CardContent>
+      <GlobalStyled.Button>Demo</GlobalStyled.Button>
     </Styled.CardConatiner>
   );
 };

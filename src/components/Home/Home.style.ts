@@ -43,15 +43,4 @@ export const ImageWrapper = styled.div`
   }
 `;
 
-export const SummaryWrapper = styled.div`
-  & Button {
-    color: #fff;
-    background-color: transparent;
-    border: 2px solid #fff;
-  }
-
-  & Button:hover {
-    background-color: #1e40af;
-    border-color: #1e40af;
-  }
-`;
+export const SummaryWrapper = styled.div``;

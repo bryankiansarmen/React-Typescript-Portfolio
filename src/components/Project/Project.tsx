@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <section id="project">
       <GlobalStyled.Container>
-        <GlobalStyled.SectionHeader>Project Section</GlobalStyled.SectionHeader>
+        <GlobalStyled.SectionHeader>Project</GlobalStyled.SectionHeader>
         <GlobalStyled.SectionContent>
           <Card
             title="Project 1"

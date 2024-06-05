@@ -19,14 +19,6 @@ export const FormWrapper = styled.div`
 
   & Button {
     width: 100%;
-    color: #ffffff;
-    background-color: transparent;
-    border: 2px solid #ffffff;
-  }
-
-  & Button:hover {
-    background-color: #1d4ed8;
-    border-color: #1d4ed8;
   }
 `;
 

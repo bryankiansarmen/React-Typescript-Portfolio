@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <GlobalStyled.Container>
-        <GlobalStyled.SectionHeader>Contact Section</GlobalStyled.SectionHeader>
+        <GlobalStyled.SectionHeader>Contact</GlobalStyled.SectionHeader>
         <Styled.ContentWrapper>
           <Styled.FormWrapper>
             <Styled.FormItemWrapper>

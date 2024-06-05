@@ -31,7 +31,7 @@ const About = () => {
   return (
     <section id="about">
       <GlobalStyled.Container>
-        <GlobalStyled.SectionHeader>About Section</GlobalStyled.SectionHeader>
+        <GlobalStyled.SectionHeader>About</GlobalStyled.SectionHeader>
         <Styled.ContentWrapper>
           <Styled.ItemWrapper flex={"1.5"}>
             {STACKS_LIST.map((item, index) => {

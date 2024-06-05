@@ -16,14 +16,16 @@ export const Blur = styled.span`
 export const Button = styled.button`
   padding: 1rem 2rem;
   font-size: 1rem;
-  color: #ffffff;
-  background-color: #1d4ed8;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 
   &:hover {
-    background-color: #1d4ed8;
+    background-color: #1e40af;
+    border-color: #1e40af;
   }
 `;
 
