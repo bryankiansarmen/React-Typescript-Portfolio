@@ -42,4 +42,12 @@ export const SectionContent = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+
+  @media (width < 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (width < 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;

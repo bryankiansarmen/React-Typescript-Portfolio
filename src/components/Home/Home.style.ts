@@ -7,6 +7,10 @@ export const Header = styled.header`
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
+
+  @media (width < 900px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const HeaderSubTitle = styled.h4`
@@ -35,11 +39,23 @@ export const HeaderDescription = styled.p`
 `;
 
 export const ImageWrapper = styled.div`
+  display: flex;
+  align-items: center;
   position: relative;
 
   & img {
     max-width: 600px;
     margin: auto;
+  }
+
+  @media (width < 900px) {
+    grid-area: 1/1/2/2;
+  }
+
+  &::before {
+    @media (width < 600px) {
+      display: none;
+    }
   }
 `;
 

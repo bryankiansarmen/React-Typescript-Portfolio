@@ -35,4 +35,12 @@ export const SocialContainer = styled.div`
     background-color: #1d4ed8;
     border-color: #1d4ed8;
   }
+
+  @media (width < 900px) {
+    grid-template-columns: 1fr 200px;
+  }
+
+  @media (width < 600px) {
+    grid-template-columns: 1fr 150px;
+  }
 `;

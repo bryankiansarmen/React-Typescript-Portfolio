@@ -58,6 +58,10 @@ export const NavList = styled.ul`
   display: flex;
   align-items: center;
   gap: 3rem;
+
+  @media (width < 900px) {
+    display: none;
+  }
 `;
 
 export const NavItem = styled.li`
